@@ -1,0 +1,267 @@
+.carousel-indicators .active {
+    background-color: #088bfd !important;
+    border: 1px solid #088bfd;
+}
+
+.home-products {
+	height: 400px;
+    text-align: center;
+}
+
+/*         产品      start         */
+.home-table-Host,
+.home-table-Storage,
+.home-table-Desktop,
+.home-table-CustomerService {
+	display: block;
+	cursor: pointer;
+}
+.home-table-Host .homeMsg,
+.home-table-Storage .homeMsg,
+.home-table-Desktop .homeMsg,
+.home-table-CustomerService .homeMsg {
+	color: #333333;
+}
+.home-table-Host:hover .homeMsg,
+.home-table-Storage:hover .homeMsg,
+.home-table-Desktop:hover .homeMsg,
+.home-table-CustomerService:hover .homeMsg {
+	cursor: pointer;
+	color: #1580ff;
+}
+
+.home-table-Host .homeProductHostImg {
+	/*background-image: url(/portal/image/homeProductHost.png);*/
+	background-image: url(/portal/image/home/syanniu/dly_sy_yzja.png);
+	width:170px;
+	height:170px;
+	display: block;
+	cursor: pointer;
+}
+.home-table-Host:hover .homeProductHostImg {
+	/*background-image: url(/portal/image/homeProductHostHover.png);*/
+	background-image: url(/portal/image/home/syanniu/dly_sy_yzjb.png);
+}
+
+.home-table-Storage .homeProductStorageImg {
+	/*background-image: url(/portal/image/homeProductStorage.png);*/
+	background-image: url(/portal/image/home/syanniu/dly_sy_ycca.png);
+	width:171px;
+	height:170px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.home-table-Storage:hover .homeProductStorageImg {
+	/*background-image: url(/portal/image/homeProductStorageHover.png);*/
+	background-image: url(/portal/image/home/syanniu/dly_sy_yccb.png);
+}
+
+.home-table-Desktop .homeProductDesktopImg{
+	/*background-image: url(/portal/image/homeProductDesktop.png);*/
+	background-image: url(/portal/image/home/syanniu/dly_sy_yzma.png);
+	width:171px;
+	height:170px;
+	display: block;
+	margin: 0 auto;
+	cursor: pointer;
+}
+.home-table-Desktop:hover .homeProductDesktopImg {
+	/*background-image: url(/portal/image/homeProductDesktopHover.png);*/
+	background-image: url(/portal/image/home/syanniu/dly_sy_yzmb.png);
+}
+
+.home-table-CustomerService .homeProductCustomerServiceImg {
+	/*background-image: url(/portal/image/homeProductCustomerService.png);*/
+	background-image: url(/portal/image/home/syanniu/dly_sy_yywa.png);
+	width:170px;
+	height:170px;
+	display: block;
+	cursor: pointer;
+}
+.home-table-CustomerService:hover .homeProductCustomerServiceImg {
+	/*background-image: url(/portal/image/homeProductCustomerServiceHover.png);*/
+	background-image: url(/portal/image/home/syanniu/dly_sy_yywb.png);
+}
+.homeDesc {
+	margin:10px auto;
+	text-overflow:clip;
+	white-space:nowrap; 
+	overflow:hidden; 
+	display: block;
+	width: 200px;
+}
+/*         产品      end         */
+
+/*         资讯      start         */
+.homeInformationTitle {
+	cursor: pointer;
+	color: #333333;
+}
+.homeInformationTitle:hover {
+	color: #1580ff;
+	text-decoration: underline; 
+}
+/*         资讯      end         */
+
+/*         宣传      start         */
+.homePropaganda {
+	/* 
+	background: url(/portal/image/homePropaganda.png);
+	height: 363px;
+	 */
+	background: url(/portal/image/home/dly_sy_guanggao.png);
+	height: 268px;
+	width: 1180px;
+	background-size: 100% 100%;
+}
+.btn-propaganda {
+	/* 
+	background-image: url(/portal/image/homePropagandaButton.png);
+	width:198px;
+	height:59px;
+	*/
+	background-image: url(/portal/image/home/dly_sy_guanggao_anniua.png);
+	width:145px;
+	height:49px;
+	display: block;
+}
+.btn-propaganda:hover {
+	/*
+	background-image: url(/portal/image/home/PropagandaButtonHover.png);
+	*/
+	background-image: url(/portal/image/home/dly_sy_guanggao_anniub.png);
+}
+/*         宣传      end         */
+
+/*         方案      start         */
+.homeProgrammeDesc {
+	margin:10px 0 14px;
+	text-overflow:ellipsis;
+	white-space:nowrap; 
+	overflow:hidden; 
+	display: block;
+	width: 200px;
+}
+.btn-programme {
+	-moz-transition: all 0.2s ease-out 0s;
+	-webkit-transition: all 0.2s ease-out 0s;
+	transition: all 0.2s ease-out 0s;
+	padding: 5px 12px;
+	line-height: normal;
+	font-size: 12px;
+	text-decoration: blink; 
+}
+/*         方案      end         */
+
+/*        合作用户         */
+.homeUserBefore,
+.homePartnerBefore {
+	background: url(/portal/image/homeUserBefore.png);
+	width: 29px;
+	height: 107px;
+}
+.homeUserBefore:hover,
+.homePartnerBefore:hover {
+	background: url(/portal/image/homeUserBeforeHover.png);
+}
+.homeUserAfter,
+.homePartnerAfter {
+	background: url(/portal/image/homeUserAfter.png);
+	width: 29px;
+	height: 107px;
+}
+.homeUserAfter:hover,
+.homePartnerAfter:hover {
+	background: url(/portal/image/homeUserAfterHover.png);
+}
+#focus {width:1120px; height:107px; overflow:hidden; position:relative;} 
+#focus ul {height:107px; position:absolute;} 
+#focus ul li {float:left; width:196px; height:107px; overflow:hidden; position:relative; /* background:#000; */margin: 0 14px;}
+#focus ul li div {position:absolute; overflow:hidden;} 
+/*        合作用户         */
+
+/* 轮播图 */
+.main-box { /*width: 1180px;*/
+	margin: 0 auto;
+	position: relative;
+	height: 550px;
+}
+ul {
+	list-style-type:none;
+	-webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-padding-start: 0px;
+	margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.top-slide-img {
+	position: absolute;
+	height: 550px;
+	width: 100%;
+}
+.top-slide-img li {
+	height: 550px;
+	background-repeat: no-repeat;
+	background-position: center top;
+}
+.top-slide {
+	position:relative;
+	width: 1180px;
+	margin:-561px auto 0 auto;
+	height:1px;
+	z-index: 2;
+}
+.top-slide .m-s-box {
+	position:absolute;
+	width: 180px;
+	height: 240px;
+	padding: 0 10px;
+	right: 0;
+	top: 10px;
+}
+.top-slide .m-s-box img {
+	display: block;
+	width: 180px;
+	height: 240px;
+}
+.top-slide .m-s-bottom {
+	top: 251px;
+}
+.top-slide .m-s-box .title {
+	font-size: 18px;
+	font-weight: bold;
+	color: #565656;
+	margin-bottom: 10px;
+}
+.top-slide .m-s-box .pic {
+	width: 120px;
+	margin: 0 auto;
+}
+.top-slide .m-s-box .pic img {
+	width: 120px;
+	height: 105px;
+}
+.top-slide .m-s-box .price {
+	color: #999;
+	font-size: 12px;
+	width: 180px;
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: center;
+	margin-bottom: 5px;
+}
+.top-slide .m-s-box .text {
+	line-height: 16px;
+}
+.top-slide ul li {
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+	background: #1580ff;
+}
+/* 轮播图 end */
+
+

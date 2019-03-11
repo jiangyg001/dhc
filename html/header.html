@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>大连云【官网】| 中小企业选择的专业云服务</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta name="Keywords" content="大连云、大连云服务、大连云主机、云储存、大连云服务器、商业云、大连云补贴">
+    <meta name="Description" content="大连云计算公共服务平台，政府为用户提供90%云服务补贴。提供云主机、云储存、云桌面、云运维等公共或商业产品服务，24小时技术人工解决，一站式大连云主动服务助力中小企业发展。">
+    <meta name="baidu-site-verification" content="Pmd4tOIfrd">
+    <link href="https://www.dhc.cn/favicon.ico" rel="bookmark" type="image/x-icon">
+    <link href="https://www.dhc.cn/favicon.ico" rel="icon" type="image/x-icon">
+    <link href="https://www.dhc.cn/favicon.ico" rel="shortcut icon" type="image/x-icon">
+
+    <!-- 共通的css -->
+    <link rel="stylesheet" href="../css/common.css">
+    <!-- 轮播css -->
+    <link rel="stylesheet" href="../css/jquery.bxslider.css">
+    <!-- 首页css -->
+    <link rel="stylesheet" href="../css/home.css">
+    <!-- jQuery -->
+    <script charset="utf-8" src="../js/v.js"></script>
+    <script src="../js/push.js"></script>
+    <script type="text/javascript" src="../js/jquery.min.js"></script>
+    <!-- 轮播js -->
+    <!-- jquery.cookie.js -->
+    <script type="text/javascript" src="../js/jquery.cookie.js"></script>
+    <!-- 共通js -->
+    <script type="text/javascript" src="../js/common.js"></script>
+    <!-- 首页js -->
+    <script type="text/javascript" src="../js/home.js"></script>
+</head>
+
+<body>
+    <!--通用页眉-->
+    <div id="header">
+        <div style="border-bottom:1px solid #ccc;">
+            <!-- 顶部导航 -->
+            <div>
+                <div class="header-nav fontSize12">
+                    <div class="header-nav-box">
+                        <div style="margin-top:6px; float:left;">
+                            <img src="../images/header_footer/headerHome.png" width="19px" height="19px">
+                        </div>
+                        <div class="alg" style="margin-top:10px; margin-left:7px; float:left;">
+                            <span class="colorDarkGray" style="margin-right: 28px;">欢迎来到大连云计算公共服务平台</span>
+                            <span class="header-login" style="border-right: 1px solid #ebebed;"><a href="https://www.dhc.cn/portal/html/login/login.html" class="colorBlue" style="text-decoration: blink;">登录</a></span>
+                            <span class="header-login"><a href="https://www.dhc.cn/portal/html/register/register.html" class="colorBlue" style="text-decoration: blink;">免费注册</a></span>
+                        </div>
+                        <div class="blg" style="margin-top:10px; margin-left:7px; float:left;display:none">
+                            <span class="colorDarkGray" style="margin-right: 28px;">欢迎来到大连云计算公共服务平台</span>
+                            <span class="header-login" style="border-right: 1px solid #ebebed;"><a href="https://www.dhc.cn/console/html/index.html" class="colorBlue" style="text-decoration: blink;"><span id="userName"></span>
+                            </a>
+                            </span>
+                            <span class="header-login"><a href="https://www.dhc.cn/portal/html/home/home.html#" onclick="baseUtil.logOut()" class="colorBlue" style="text-decoration: blink;">退出</a></span>
+                        </div>
+                        <div class="header-right">
+                            <a class="header-right-common header-favorite" href="javascript:void(0)" onclick="baseUtil.addFavorite()">加入收藏</a>
+                            <a class="header-right-common header-call" href="javascript:void(0)">联系我们：0411-85995988</a>
+                            <a class="header-right-common header-Weibo" onclick="baseUtil.shareToSina()" href="javascript:void(0)"></a>
+                            <a class="header-right-common header-QQ" onclick="baseUtil.shareToQQ()" href="javascript:void(0)"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 顶部导航结束 -->
+            <div style="height:115px; background-color: #ffffff;">
+                <div class="fontSize16" style="width:1180px; margin:0 auto; padding-top: 30px; ">
+                    <img onclick="baseUtil.forWordUrl(&#39;/portal.html&#39;)" style="cursor: pointer;float:left;" src="../images/header_footer/logo.png" width="205px" height="53px">
+                    <div style="float:left; width:650px; height: 68px; margin:17px 60px 0;">
+                        <span onclick="baseUtil.forWordUrl(&#39;/portal/html/activity/activity.html&#39;)" class="nav_msg nav_msg_huodong" style="float:left; margin:0 25px 0 0;"><i></i>最新活动</span>
+                        <div class="navigation" style="height:68px;">
+                            <span class="nav_msg" style="margin:0 25px;">公共服务</span>
+                            <span onclick="baseUtil.forWordUrl(&#39;/portal/html/ysc/cloudMarket.html&#39;)" class="nav_msg" style="margin:0 25px;">产品</span>
+                            <span class="nav_msg" style="margin:0 25px;">云市场</span>
+                            <span class="nav_msg" style="margin:0 25px;">帮助中心</span>
+                            <span class="nav_msg" style="margin:0 0 0 25px;">关于平台</span>
+                            <div class="navigation_detail" style="background-color:#1580ff; width:1180px; height:280px; margin-top:44px; margin-left:-265px;z-index:999999;">
+                                <div style="padding-top: 29px; padding-left: 55px; margin:0 auto; color:#ffffff;">
+                                    <div class="fontSize12" style="float: left; width:900px;">
+                                        <div style="float: left; width:18%;">
+                                            <div style="width:130px; height: 37px; border-bottom:1px solid #ffffff;">
+                                                <img style="float: left; padding-top: 3px;" src="../images/header_footer/header_nav_service.png" width="19px" height="24px">
+                                                <span class="fontSize16" style="float: left; margin:3px 0 0 5px;">公共服务</span>
+                                            </div>
+                                            <div style="float: left; margin-left:5px;">
+                                                <div style="margin-top:16px;">
+                                                    <a href="https://www.dhc.cn/portal/html/ggfw/publicServiceProduct.html" class="header-mycss"><span>公共服务产品</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ggfw/servicePrice.html" class="header-mycss"><span>服务价格</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ggfw/serviceAgencies.html" class="header-mycss"><span>服务机构</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ggfw/eniryUnit.html" class="header-mycss"><span>入驻单位</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ggfw/eniryProcess.html" class="header-mycss"><span>申请流程</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ggfw/preferentialPolicy.html" class="header-mycss"><span>优惠政策</span></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="float: left; width:18%;">
+                                            <div style="width:130px; height: 37px; border-bottom:1px solid #ffffff;">
+                                                <img style="float: left; padding-top: 5px;" src="../images/header_footer/header_nav_cloud.png" width="24px" height="17px">
+                                                <span class="fontSize16" style="float: left; margin:3px 0 0 5px;">产品</span>
+                                            </div>
+                                            <div style="float: left; margin-left:5px;">
+                                                <div style="margin-top:16px;">
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudHost.html" class="header-mycss"><span>云主机</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudStorage.html" class="header-mycss"><span>云存储</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudDesktop.html" class="header-mycss"><span>云桌面</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudOperation.html" class="header-mycss"><span>云运维</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/calculator.html" class="header-mycss"><span style="color:#ffe960"><strong>价格计算器</strong></span></a>
+                                                    <br>
+                                                    <!-- <a href="/portal/html/ysc/cloudNifty.html" class="header-mycss" style="margin-left:50px;"><span style="color:#ffae00"><strong>云主机 NIFTY</strong></span></a><br>
+									<a href="/portal/html/ysc/cloudOperation.html" class="header-mycss"><span>云运维</span></a>
+									<a href="/portal/html/ysc/calculator.html" class="header-mycss" style="margin-left:50px;"><span style="color:#ffae00"><strong>价格计算器</strong></span></a><br> -->
+                                                    <!--
+									<a href="/portal/html/ysc/cloudSearch.html" class="header-mycss" style="margin-left:50px;"><span>云搜索</span></a><br>
+									<a href="/portal/html/ysc/cloudCall.html" class="header-mycss" style="margin-left:50px;"><span>云呼叫</span></a><br>
+									<a href="/portal/html/ysc/cloudSafe.html" class="header-mycss" style="margin-left:50px;"><span>云安全</span></a><br>
+									<a href="/portal/html/ysc/cloudBackUp.html" class="header-mycss" style="margin-left:50px;"><span>云备份</span></a><br>
+									<a href="/portal/html/ysc/cloudConference.html" class="header-mycss"><span>云会议</span></a>
+									<a href="/portal/html/ysc/cloudERP.html" class="header-mycss" style="margin-left:50px;"><span>云ERP</span></a><br>
+									<a href="/portal/html/ysc/cloudMailbox.html" class="header-mycss"><span>云邮箱</span></a>
+									<a href="/portal/html/ysc/cloudOA.html" class="header-mycss" style="margin-left:50px;"><span>云OA</span></a><br>
+									<a href="/portal/html/ysc/cloudSupportPoor.html" class="header-mycss"><span>扶贫云</span></a>
+									<a href="/portal/html/ysc/trade365.html" class="header-mycss" style="margin-left:50px;"><span>贸易365</span></a><br>
+									-->
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="float: left; width:28%;">
+                                            <div style="width:220px; height: 37px; border-bottom:1px solid #ffffff;">
+                                                <img style="float: left; padding-top: 3px;" src="../images/header_footer/header_nav_solution.png" width="21px" height="24px">
+                                                <span class="fontSize16" style="float: left; margin:3px 0 0 5px;">云市场</span>
+                                            </div>
+                                            <div style="float: left; margin-left:5px;">
+                                                <div style="margin-top:16px; word-spacing: 10px;">
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudMarket.html" class="header-mycss" style="font-size: 14px;"><span style="color:#ffe960">SaaS服务</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudBackUp.html" class="header-mycss"><span>云备份</span></a>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudSafe.html" class="header-mycss"><span>云安全</span></a>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudMailbox.html" class="header-mycss"><span>云邮箱</span></a>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudERP.html" class="header-mycss"><span>云ERP</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudConference.html" class="header-mycss"><span>云会议</span></a>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudOA.html" class="header-mycss"><span>云OA</span></a>
+                                                    <br>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudMarket.html" class="header-mycss" style="font-size: 14px;"><span style="color:#ffe960">解决方案</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/jjfa/privateCloud.html" class="header-mycss"><span>私有云</span></a>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudHealth.html" class="header-mycss"><span>健康云</span></a>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudSupportPoor.html" class="header-mycss"><span>扶贫云</span></a>
+                                                    <a href="https://www.dhc.cn/portal/html/ysc/cloudMarket.html" class="header-mycss"><span>外包云</span></a>
+                                                    <!--
+									<a href="/portal/html/jjfa/IToperation.html" class="header-mycss"><span>IT运维解决方案</span></a><br>
+									<a href="/portal/html/jjfa/solutionECommerce.html" class="header-mycss"><span>电商解决方案</span></a><br>
+									-->
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="float: left; width:18%;">
+                                            <div style="width:130px; height: 37px; border-bottom:1px solid #ffffff;">
+                                                <img style="float: left; padding-top: 3px;" src="../images/header_footer/header_nav_help.png" width="20px" height="20px">
+                                                <span class="fontSize16" style="float: left; margin:3px 0 0 5px;">帮助中心</span>
+                                            </div>
+                                            <div style="float: left; margin-left:5px;">
+                                                <div style="margin-top:16px;">
+                                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=ksrm" class="header-mycss"><span>快速入门</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=ggfw" class="header-mycss"><span>公共服务</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=syfw" class="header-mycss"><span>商业服务</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=cjwt" class="header-mycss"><span>常见问题</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=sjzx" class="header-mycss"><span>数据中心</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=fwcp" class="header-mycss"><span>云服务产品</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=jrba" class="header-mycss"><span>网站接入备案</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=wdxz" class="header-mycss"><span>工具及文档下载</span></a>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div style="float: left; width:18%;">
+                                            <div style="width:130px; height: 37px; border-bottom:1px solid #ffffff;">
+                                                <img style="float: left; padding-top: 3px;" src="../images/header_footer/header_nav_about.png" width="22px" height="19px">
+                                                <span class="fontSize16" style="float: left; margin:3px 0 0 5px;">关于平台</span>
+                                            </div>
+                                            <div style="float: left; margin-left:5px;">
+                                                <div style="margin-top:16px;">
+                                                    <a href="https://www.dhc.cn/portal/html/about/aboutPlatformIntriduction.html" class="header-mycss"><span>平台介绍</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/about/aboutPlatformCustomer.html" class="header-mycss"><span>我们的客户</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/about/aboutPlatformCloud.html" class="header-mycss"><span>云业务展示</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/news/newsInformationList.html" class="header-mycss"><span>资讯中心</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/about/aboutPlatformContact.html" class="header-mycss"><span>联系我们</span></a>
+                                                    <br>
+                                                    <a href="https://www.dhc.cn/portal/html/login/login.html" class="header-mycss"><span>登录平台</span></a>
+                                                    <br>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div style="float: left; margin-top:10px; text-align: center;">
+                                        <img src="../images/header_footer/qrCode.png" width="144px" height="144px" style="margin-top:4px;">
+                                        <div class="fontSize14" style="margin-top:12px;">请关注大连云</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alg">
+                        <div style="float:left; margin-top: 3px;">
+                            <a href="https://www.dhc.cn/portal/html/login/login.html" class="btn_header_login"></a>
+                        </div>
+                    </div>
+                    <div class="blg" style="display:none">
+                        <div style="float:left; margin-top: 3px;">
+                            <a href="https://www.dhc.cn/console/html/index.html" class="btn_header_personal"></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="clearfloat"></div>
+            <!-- 页头结束 -->
+        </div>
+    </div>
+    <!-- 轮播图 -->
+
+    <!-- 轮播图结束 -->
+    <!-- 产品 -->
+
+    <!-- 产品结束 -->
+
+    <!-- 资讯中心 -->
+
+    <!-- 资讯中心结束 -->
+
+    <!-- 大连云服务宣传 -->
+
+    <!-- 大连云服务宣传结束 -->
+
+    <!-- 我们的方案 -->
+
+    <!-- 我们的方案结束 -->
+
+    <!-- 主要用户 -->
+
+    <!-- 合作用户结束 -->
+
+
+
+
+    <!-- 合作伙伴结束 -->
+
+
+
+    <!--通用页脚-->
+    <div id="footer" style="margin-top:60px;">
+        <!-- 右侧浮动层 -->
+        <!-- <div style="width:1180px; margin:0 auto;"> -->
+        <div class="homeRightCommon">
+            <a href="https://www.dhc.cn/portal/html/ysc/calculator.html" class="homeRightBuyImg"></a>
+            <a href="http://221.180.141.85:8081/trigger/?a=56f5c0cbea82d4bc5de9b2c1&amp;b=56f5c176035a46075ee026d1&amp;c=585ce0105e22de6487e153b3" target="_blank" class="homeRightCustomerServiceImg"></a>
+            <a href="https://www.dhc.cn/portal/html/login/login.html" class="homeRightQuickCheckInImg"></a>
+            <a href="https://www.dhc.cn/portal/html/home/home.html#" class="homeRightUpImg"></a>
+        </div>
+        <!-- </div> -->
+        <!-- 右侧浮动层结束 -->
+        <div style="margin-top:36px; background: #ffffff;">
+            <div class="clearfloat"></div>
+            <div style="background: #ebebed; height:300px;">
+                <div class="fontSize14 colorDarkGray" style="width: 1180px; margin:0 auto; padding:19px 0; text-align: center; border-bottom: 1px solid #ccc;">
+                    <!-- <div style="float:left; width: 100px; border-right: 1px solid #ccc;" class="mycss footerMsg" onclick="baseUtil.forWordUrl('/portal/html/helpCenter/downloadFiles/yfwht.doc')">服务协议</div> -->
+                    <!-- <div style="float:left; width: 100px; border-right: 1px solid #ccc;">工单系统</div> -->
+                    <!-- <div style="float:left; width: 100px; border-right: 1px solid #ccc;">意见反馈</div> -->
+                    <div style="float:left; width: 100px; border-right: 1px solid #ccc;" class="mycss footerMsg" onclick="baseUtil.forWordUrl(&#39;/portal/html/login/login.html&#39;)">快速入驻</div>
+                    <div style="float:left; width: 100px;">
+                        <select onchange="baseUtil.otherWebShow(this)" class="mycss footerMsg" style="margin-left: 20px;background-color: #ebebed;font-size: 14px;font-family:微软雅黑;border:none;">
+                            <option style="color:#999999;" value="">友情链接</option>
+                            <option style="color:#999999;" value="http://www.jxw.dl.gov.cn">大连市经信委</option>
+                            <option style="color:#999999;" value="http://www.ddport.com">大连市高新区</option>
+                            <option style="color:#999999;" value="http://www.dlsia.org.cn">大连市软件行业协会</option>
+                            <option style="color:#999999;" value="http://www.dhc.com.cn">大连华信</option>
+                            <option style="color:#999999;" value="http://www.83700000.tv/">天途有线</option>
+                        </select>
+                    </div>
+                    <div class="clearfloat"></div>
+                </div>
+                <div style="width: 1180px; padding-top: 34px; margin:0 auto;">
+                    <div style="float: left; width:610px;">
+                        <div style="float: left; width:33%;">
+                            <img style="float: left; padding-top: 3px;" src="../images/header_footer/home_bottom.png" width="22px" height="19px">
+                            <div style="float: left; margin-left:5px;">
+                                <span class="fontSize20">关于平台</span>
+                                <div class="fontSize12" style="margin-top:10px;">
+                                    <a href="https://www.dhc.cn/portal/html/about/aboutPlatformIntriduction.html" class="mycss"><span>平台介绍</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/about/aboutPlatformCustomer.html" class="mycss"><span>我们的客户</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/about/aboutPlatformCloud.html" class="mycss"><span>云业务展示</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/news/newsInformationList.html" class="mycss"><span>资讯中心</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/about/aboutPlatformContact.html" class="mycss"><span>联系我们</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/login/login.html" class="mycss"><span>登录平台</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="float: left; width:33%;">
+                            <img style="float: left; padding-top: 3px;" src="../images/header_footer/group_bottom.png" width="21px" height="27px">
+                            <div style="float: left; margin-left:5px;">
+                                <span class="fontSize20">公共服务</span>
+                                <div class="fontSize12" style="margin-top:10px;">
+                                    <a href="https://www.dhc.cn/portal/html/ggfw/publicServiceProduct.html" class="mycss"><span>公共服务产品</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/ggfw/servicePrice.html" class="mycss"><span>服务价格</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/ggfw/serviceAgencies.html" class="mycss"><span>服务机构</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/ggfw/eniryUnit.html" class="mycss"><span>入驻单位</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/ggfw/eniryProcess.html" class="mycss"><span>申请流程</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/ggfw/preferentialPolicy.html" class="mycss"><span>优惠政策</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="float: left; width:34%;">
+                            <img style="float: left; padding-top: 3px;" src="../images/header_footer/help_bottom.png" width="22px" height="22px">
+                            <div style="float: left; margin-left:5px;">
+                                <span class="fontSize20">帮助中心</span>
+                                <div class="fontSize12" style="margin-top:10px;">
+                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=ksrm" class="mycss"><span>快速入门</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=ggfw" class="mycss"><span>公共服务</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=syfw" class="mycss"><span>商业服务</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=cjwt" class="mycss"><span>常见问题</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=sjzx" class="mycss"><span>数据中心</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=fwcp" class="mycss"><span>云服务产品</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=jrba" class="mycss"><span>网站接入备案</span></a>
+                                    <br>
+                                    <a href="https://www.dhc.cn/portal/html/helpCenter/helpCenter.html?tree=wdxz" class="mycss"><span>工具及文档下载</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div style="float: left; width:234px; text-align: center; border-right:1px solid #d8d8dc;">
+                        <img src="../images/header_footer/qrCode.png" width="144px" height="144px" style="margin-top:4px;margin-bottom: 4px;">
+                    </div>
+                    <div style="float: left; width:284px; margin-left:50px;">
+                        <img style="float: left;" src="../images/header_footer/hotline.png" width="30px" height="26px">
+                        <div style="float: left; margin-left:8px;">
+                            <div class="fontSize20">热线电话</div>
+                            <div style="font-size:14px;margin:10px 0;">技术支持：0411-8599-6301</div>
+                            <div style="font-size:14px;margin: 10px 0;margin-left: 72px;">18525557655</div>
+                            <div style="font-size:14px;margin:10px 0;">客服电话：0411-8599-5988</div>
+                            <div class="fontSize14 colorGray" style="margin-bottom:3px;">周一到周五9:00-17:30</div>
+                            <div class="fontSize14 colorGray">周六到周日10:30-15:30</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfloat"></div>
+            <div style="background: #d8d8dc; height:170px; text-align:center;">
+                <div style="width: 1180px; margin:0 auto;">
+                    <div class="fontSize12" style="padding-top:23px;">
+                        <div style="margin-bottom:5px;">版权所有 © 2019-2020 大连华信数据技术有限公司版权所有 辽ICP备14009014号 增值电信营运许可证 辽B1.B2-20130018</div>
+                        <div style="margin-bottom:5px;">大连市经济和信息化委员会</div>
+                        <div style="margin-bottom:5px;">大连高新技术产业园区管委会</div>
+                        <div style="margin-bottom:5px;">大连华信计算机技术股份有限公司</div>
+                        <div style="margin-bottom:5px;">大连天途有线电视网络股份有限公司</div>
+                        <div style="margin-bottom:5px;">大连软件行业协会</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Code injected by live-server -->
+</body>
+
+</html>

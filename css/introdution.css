@@ -1,0 +1,392 @@
+.head_Top{
+	 width:100%;
+	 height:46px;
+	 display: block;
+}
+.head_Top_container{
+    width:1207px;
+    margin: 0 auto;
+	height:35px;
+	display: block;
+    background: url('../images/trade/trade_02.gif') 0 0 no-repeat;
+}
+.head_Top_container li {
+     float:left; 
+     list-style:none;
+     line-height :46px;
+ }  
+.span_list_01{
+	display: inline-block;
+	width: 27px;
+	height: 35px;
+}
+ .left{
+ 	float: left;
+ 	width: 50%;
+ 	height :100%;
+ }
+.right{
+	float: right;
+	width: 50%;
+	height :100%;
+}
+.welcome
+{
+	 width:  250px;
+	 height: 100%;
+	 text-align: center;
+}
+.login{
+	width:  100px;
+	height: 100%;
+	text-align: center;
+}
+.collection{
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+.Contact_us{
+	 width: 200px;
+	 height: 100px;
+	 line-height: 46px;
+}
+.head_down{
+	 width:100%;
+	 margin: 0px auto;
+	 height:117px;
+	 display: block;
+}
+.head_down_container{
+    width: 1207px;
+    margin: 0 auto;
+    height: 117px;
+    display: block;
+    /*background: url(../images/trade/trade_05.gif) 0 0 no-repeat;*/
+}
+.head_down_container .left {
+    width: 244px;
+    height: 117px;
+    background: url("../images/nav/nav_01.gif") 0 0 no-repeat;
+    display:inline-block;
+ } 
+.head_down_container .center {
+    width: 727px;
+    height: 117px;
+    background: url("../images/nav/nav_02.gif") 0 0 no-repeat;
+    display:inline-block;
+}
+.head_down_container .center .list{
+	  width: 100%;
+	  margin-top: 42px ;
+	  height : 37px;
+	  line-height: 37px;
+	  text-align: center;
+	  display: block;
+}
+.head_down_container .center .list .list-nav-0{
+    display: inline-block;
+    float: left;
+    width: 133px;
+    height : 37px;
+}
+.head_down_container .center .list .list-nav-1{
+    display: inline-block;
+    float: left;
+    width: 125px;
+    height : 37px;
+}
+.head_down_container .center .list .list-nav-2{
+    display: inline-block;
+    float: left;
+    width: 92px;
+    height : 37px;
+}
+.head_down_container .center .list .list-nav-3{
+    display: inline-block;
+    float: left;
+    width: 109px;
+    height : 37px;
+}
+.head_down_container .center .list .list-nav-4{
+    display: inline-block;
+    float: left;
+    width: 165px;
+    height : 37px;
+}
+.head_down_container .center .list .list-nav-4{
+    display: inline-block;
+    float: left;
+    width: 165px;
+    height : 37px;
+}
+.head_down_container .right{
+    width: 236px;
+    height: 117px;
+    background: url("../images/nav/nav_03.gif") 0 0 no-repeat;
+    display:inline-block;
+}
+ .container{
+ 	 width:100%;
+	 height:100%;
+	 display: block;
+	 /*border: 1px solid pink;*/
+ }
+ .trade_title_font 
+ {
+
+ }
+ .font_style_content
+ {
+ 	width:143px;
+
+ }
+ .font_style_trade{
+    width:100px;
+	height:20px;
+	display: inline-block;
+	text-align: left;
+	font-size:14px;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	color:rgba(153,153,153,1);
+	line-height:20px;
+ }
+ .container-body
+ {
+ 	  width:1190px;
+ 	  height: 768px;
+ 	  background: url(../images/trade/trade_08.gif) 0 0 no-repeat;
+ 	  margin: 0 auto;
+ 	  display: block;
+ }
+.container-down{
+	  width:1190px;
+ 	  height: 217px;
+ 	  background: url(../images/trade/trade.gif) 0 0 no-repeat;
+ 	  margin: 0 auto;
+ 	  display: block;
+}
+.container-down-history{
+		position: relative;
+	    left: 14px;
+	    top: 15px;
+		width: 408px;
+		height:20px;
+		font-size:14px;
+		font-family:PingFangSC-Semibold;
+		font-weight:600;
+		color:rgba(51,51,51,1);
+		line-height:20px;
+		display: inline-block;
+} 
+.container-history-info{
+   position: relative;
+   left: 0px;
+   top: 40px;
+   width: 1200px;
+   height: 200px;
+}
+
+.container-history-info .span-list{
+		position: relative;
+		left: 26px;
+		top: -22px;
+		width : 45px;
+		height: px;
+		display: inline-block;
+}
+.container-history-info .span-download{
+	    position: relative;
+	    left: 0px;
+	    top: 10px;
+	    width: 30px;
+	    color: #53affe;
+	    height: 20px;
+	    display: inline-block;
+}
+.container-history-list-0
+{
+	position: relative;
+	left:0px;
+	top: 0px;
+	width: 200px;
+	height: 120px;
+	display: inline-block;
+	/*border:1px solid red;*/
+}
+.container-history-list-1
+{
+	position: relative;
+	left: 126px;
+	top:2px;
+	width: 200px;
+	height: 120px;
+	display: inline-block;
+	/*border:1px solid red;*/
+}
+.container-history-list-2
+{
+	 position: relative;
+	 left:287px;
+	 top: 2px;
+	 width: 200px;
+	 height: 120px;
+	 display: inline-block;
+	 /*border:1px solid red;*/
+}
+.history-time{
+     display: inline-block;
+     line-height: 25px;
+     width: 126px;
+     height: 25px;
+}
+.history-list{
+		margin-top: 19px;
+		margin-left: 2px;
+		width: 150px;
+		height: 100px;
+		display:inline-block;
+}
+.container-down-info{
+		width:305px;
+		height:17px;
+		font-size:12px;
+		font-family:PingFangSC-Regular;
+		font-weight:400;
+		color:rgba(153,153,153,1);
+		line-height:17px;
+}
+.container-another
+{
+  	  width: 100%;
+	  height: 286px;
+	  background-color: #ebebed;
+	   
+	  /*background: url(../images/trade/trade_20.gif) 0 0 no-repeat;*/
+	  display: block;
+}
+.container-another-body{
+	  width: 1264px;
+	  height: 282px;
+	  /*margin: 0 auto;*/
+	  margin: 0 auto;
+	  background: url(../images/trade/trade_20.gif) 0 0 no-repeat;
+	  display: block;
+}
+
+.trade{
+    width: 56px;
+    height: 20px;
+    left: 21px;
+    top: 53px;
+    height:20px;
+	font-size:14px;
+	font-family:PingFangSC-Regular;
+	font-weight:400;
+	/*color:rgba(51,51,51,1);*/
+	line-height:20px;
+    position: relative;
+}
+.trade-list{
+	position: relative;
+    width: 700px;
+    height: 30px;
+    left: 4px;
+ /*   top: 93px;*/
+    display: block;
+}
+.trade-type{
+    top: 93px;
+}
+
+.trade-id{
+    top: 104px;
+}
+.trade-time{
+   top: 114px;
+}
+.trade-lang{
+ top: 143px;
+}
+.trade-word-number{
+      top: 154px;
+  }
+  .trade-offer{
+	 top : 164px;
+}
+.trade-money{
+	 top : 175px;
+}
+.trade-cost{
+	 top :184px;
+}
+.trade-format{
+	  top :194px;
+}
+.trade-translate-level{
+	 top : 204px;
+}
+.trade-speed
+{
+	 top : 214px;
+}
+.trade-involve{
+	 top:224px;
+}
+.trade-status{
+    top: 254px;
+}
+.trade-Modify-requirements{
+	 top: 264px;
+}
+.trade-operation{
+	top: 273px;
+}
+.list-title{
+	 width: 188px;
+	 height: 20px;
+	 color:rgba(153,153,153,1);
+	 display: inline-block;
+}
+.list-content{
+	 width: 400px;
+	 height: 20px;
+	 color:rgba(51,51,51,1);
+	 display: inline-block;
+}
+.page-footer{
+	width: 100%;
+
+}
+.trade-status{
+		position: relative;
+		left: 852px;
+		top: -287px;
+		width: 341px;
+		height: 413px;
+		background: url(../images/trade/trade_status.gif);
+		display: block;
+		z-index: 100;
+		border: 1px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
